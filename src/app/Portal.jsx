@@ -387,11 +387,10 @@ const Logo = ({ size=22, tag=false }) => {
   const { dark } = useTheme()
   return <div>
     <div style={{ fontFamily:"'Space Grotesk',sans-serif", fontSize:size, fontWeight:800, letterSpacing:2.5, lineHeight:1 }}>
-      <span style={{color:dark?'#fff':'#111'}}>AEM</span>
-      <span style={{color:'#7C5CFF',textShadow:'0 0 24px rgba(124,92,255,.35)'}}>T</span>
-      <span style={{color:dark?'#fff':'#111'}}>ECH</span>
+      <span style={{color:dark?'#fff':'#111'}}>ASP</span>
+      <span style={{color:'#7C5CFF',textShadow:'0 0 24px rgba(124,92,255,.35)'}}>IRE</span>
     </div>
-    {tag && <div style={{fontSize:9,color:'rgba(124,92,255,.3)',letterSpacing:3.5,textTransform:'uppercase',marginTop:5,fontWeight:600}}>Design the Future</div>}
+    {tag && <div style={{fontSize:9,color:'rgba(124,92,255,.3)',letterSpacing:3.5,textTransform:'uppercase',marginTop:5,fontWeight:600}}>Learn · Build · Earn</div>}
   </div>
 }
 
@@ -967,7 +966,7 @@ function LoginPage() {
             <div>Student: <b>student@aspireacademy.pk</b> / <b>student123</b></div>
           </div>
 
-          <div style={{ textAlign: 'center', marginTop: 30, fontSize: 11, color: '#1A1A1A', letterSpacing:1 }}>© 2026 ASPIRE · Design the Future ✦</div>
+          <div style={{ textAlign: 'center', marginTop: 30, fontSize: 11, color: '#1A1A1A', letterSpacing:1 }}>© 2026 ASPIRE · Learn · Build · Earn ✦</div>
         </div>
       </div>
     </div>
@@ -1902,7 +1901,7 @@ body{font-family:'Inter',sans-serif;background:#f5f5f5;padding:40px;display:flex
 <body>
 <div class="receipt">
 <div class="header">
-<div class="logo"><span style="color:#fff">AEM</span><span style="color:#7C5CFF">T</span><span style="color:#fff">ECH</span></div><div style="font-size:10px;letter-spacing:4px;color:rgba(255,255,255,.7);font-weight:700;margin-bottom:4px">INSTITUTE</div>
+<div class="logo"><span style="color:#fff">ASP</span><span style="color:#7C5CFF">IRE</span></div><div style="font-size:10px;letter-spacing:4px;color:rgba(255,255,255,.7);font-weight:700;margin-bottom:4px">INSTITUTE</div>
 <div class="title">Fee Receipt</div>
 
 </div>
@@ -1921,7 +1920,7 @@ body{font-family:'Inter',sans-serif;background:#f5f5f5;padding:40px;display:flex
 </div>
 <div class="footer">
 <div class="thanks">Thank you for your payment! 🙏</div>
-<p>ASPIRE Institute — Design the Future</p>
+<p>ASPIRE Institute — Learn · Build · Earn</p>
 <p>This is a computer generated receipt</p>
 </div>
 </div>
@@ -3196,7 +3195,7 @@ body{font-family:'Inter',sans-serif;background:#f5f5f5;padding:40px;display:flex
 <body>
 <div class="receipt">
 <div class="header">
-<div class="logo"><span style="color:#fff">AEM</span><span style="color:#7C5CFF">T</span><span style="color:#fff">ECH</span></div><div style="font-size:10px;letter-spacing:4px;color:rgba(255,255,255,.7);font-weight:700;margin-bottom:4px">INSTITUTE</div>
+<div class="logo"><span style="color:#fff">ASP</span><span style="color:#7C5CFF">IRE</span></div><div style="font-size:10px;letter-spacing:4px;color:rgba(255,255,255,.7);font-weight:700;margin-bottom:4px">INSTITUTE</div>
 <div class="title">Fee Receipt</div>
 </div>
 <div class="body">
@@ -3213,7 +3212,7 @@ body{font-family:'Inter',sans-serif;background:#f5f5f5;padding:40px;display:flex
 </div>
 <div class="watermark">Thank you for your payment!</div>
 </div>
-<div class="footer">ASPIRE Institute — Design the Future<br/>This is a computer generated receipt</div>
+<div class="footer">ASPIRE Institute — Learn · Build · Earn<br/>This is a computer generated receipt</div>
 </div>
 <script>window.onload=()=>{setTimeout(()=>window.print(),500)}<\/script>
 </body></html>`)
@@ -3253,7 +3252,7 @@ body{font-family:'Inter',sans-serif;background:#f5f5f5;padding:40px;display:flex
 <body>
 <div class="receipt">
 <div class="header">
-<div class="logo"><span style="color:#fff">AEM</span><span style="color:#7C5CFF">T</span><span style="color:#fff">ECH</span></div><div style="font-size:10px;letter-spacing:4px;color:rgba(255,255,255,.7);font-weight:700;margin-bottom:4px">INSTITUTE</div>
+<div class="logo"><span style="color:#fff">ASP</span><span style="color:#7C5CFF">IRE</span></div><div style="font-size:10px;letter-spacing:4px;color:rgba(255,255,255,.7);font-weight:700;margin-bottom:4px">INSTITUTE</div>
 <div class="title">Fee Summary Receipt</div>
 </div>
 <div class="body">
@@ -3271,7 +3270,7 @@ body{font-family:'Inter',sans-serif;background:#f5f5f5;padding:40px;display:flex
 <span class="status ${st?.fee_status === 'paid' ? 'paid' : st?.fee_status === 'partial' ? 'partial' : 'pending'}">${st?.fee_status === 'paid' ? '✓ Fully Paid' : st?.fee_status === 'partial' ? 'Partial Payment' : 'Pending'}</span>
 </div>
 </div>
-<div class="footer">ASPIRE Institute — Design the Future<br/>This is a computer generated receipt</div>
+<div class="footer">ASPIRE Institute — Learn · Build · Earn<br/>This is a computer generated receipt</div>
 </div>
 <script>window.onload=()=>{setTimeout(()=>window.print(),500)}<\/script>
 </body></html>`)
@@ -3420,7 +3419,7 @@ body{font-family:'Inter',sans-serif;display:flex;align-items:center;justify-cont
 <div class="inner">
 <div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
 <div style="text-align:center">
-<div class="logo"><span style="color:#fff">AEM</span><span style="color:#7C5CFF;text-shadow:0 0 20px rgba(124,92,255,.5)">T</span><span style="color:#fff">ECH</span></div><div style="font-size:10px;letter-spacing:4px;color:#666;margin-top:4px">INSTITUTE</div>
+<div class="logo"><span style="color:#fff">ASP</span><span style="color:#7C5CFF;text-shadow:0 0 20px rgba(124,92,255,.5)">IRE</span></div><div style="font-size:10px;letter-spacing:4px;color:#666;margin-top:4px">INSTITUTE</div>
 <div class="title">Certificate of Completion</div>
 <div class="subtitle">This certificate is proudly presented to</div>
 <div class="name">${user?.full_name || 'Student Name'}</div>
@@ -3449,7 +3448,7 @@ ${user?.father_name ? '<div class="father">' + (user?.gender === 'female' ? 'D/O
           </div>
           <div style={{ background: '#fff', color: '#000', padding: 48, borderRadius: 18, textAlign: 'center', border: '8px solid #7C5CFF', marginBottom: 24, boxShadow: '0 10px 50px rgba(124,92,255,.12)' }}>
             <div style={{ border: '2px solid #7C5CFF', padding: 40, borderRadius: 12 }}>
-              <div style={{ fontSize: 30, letterSpacing: 6, fontWeight: 900, marginBottom: 6, fontFamily: "'Inter',sans-serif" }}><span style={{ color: '#7C5CFF' }}>AEM</span><span style={{ color: '#000', textShadow: '0 0 12px rgba(124,92,255,.3)' }}>T</span><span style={{ color: '#7C5CFF' }}>ECH</span></div><div style={{ fontSize: 10, letterSpacing: 4, color: '#888', marginBottom: 14 }}>INSTITUTE</div>
+              <div style={{ fontSize: 30, letterSpacing: 6, fontWeight: 900, marginBottom: 6, fontFamily: "'Inter',sans-serif" }}><span style={{ color: '#7C5CFF' }}>ASP</span><span style={{ color: '#000', textShadow: '0 0 12px rgba(124,92,255,.3)' }}>IRE</span></div><div style={{ fontSize: 10, letterSpacing: 4, color: '#888', marginBottom: 14 }}>INSTITUTE</div>
               <div style={{ fontSize: 30, fontWeight: 800, color: '#7C5CFF', marginBottom: 10 }}>Certificate of Completion</div>
               <div style={{ fontSize: 14, color: '#666', marginBottom: 20 }}>This is to certify that</div>
               <div style={{ fontSize: 28, fontWeight: 800, borderBottom: '2px solid #7C5CFF', paddingBottom: 12, display: 'inline-block', marginBottom: 10 }}>{user?.full_name}</div>
@@ -4395,8 +4394,8 @@ td{padding:10px 14px;border-bottom:1px solid #f3f4f6;color:#374151}
 </style></head><body>
 <div class="report">
 <div class="header">
-<div class="logo"><span style="color:#fff">AEM</span><span style="color:#7C5CFF">T</span><span style="color:#fff">ECH</span></div>
-<div class="subtitle">INSTITUTE — Design the Future</div>
+<div class="logo"><span style="color:#fff">ASP</span><span style="color:#7C5CFF">IRE</span></div>
+<div class="subtitle">INSTITUTE — Learn · Build · Earn</div>
 <div class="title">Student Progress Report</div>
 </div>
 <div class="body">
@@ -4444,7 +4443,7 @@ ${gradedSubs.length > 0 ? `<div style="margin-top:12px;padding:12px 16px;backgro
 </div>
 <div class="footer">
 <p style="font-size:12px;color:#666;font-weight:600;margin-bottom:8px">Thank you for being part of ASPIRE! 🙏</p>
-<p>ASPIRE Institute — Design the Future</p>
+<p>ASPIRE Institute — Learn · Build · Earn</p>
 <p>This is a computer generated progress report • ${new Date().toLocaleDateString()}</p>
 </div>
 </div>
@@ -4906,7 +4905,7 @@ function IdCardsPage() {
 
   const genCard = (s) => {
     const batch = batches.find(b => b.id === s.batch_id)
-    const sid = 'AEM-' + String(s.full_name || '').replace(/\s+/g, '').substring(0, 3).toUpperCase() + '-' + (s.id || '').substring(0, 6).toUpperCase()
+    const sid = 'ASP-' + String(s.full_name || '').replace(/\s+/g, '').substring(0, 3).toUpperCase() + '-' + (s.id || '').substring(0, 6).toUpperCase()
     // Simple QR-like pattern using canvas-free approach (visual matrix)
     let seed = 0; for (let i = 0; i < (s.id || 'x').length; i++) seed = (seed * 31 + (s.id || 'x').charCodeAt(i)) % 99991
     const cells = []
@@ -4947,7 +4946,7 @@ body{font-family:'Inter',sans-serif;background:#e5e5e5;padding:32px;display:flex
 </style></head><body>
 <div class="card">
 <div class="top">
-<div class="logo">AEM<span style="color:#fff">T</span>ECH</div>
+<div class="logo">ASP<span style="color:#fff">IRE</span></div>
 <div class="inst">INSTITUTE OF DIGITAL SKILLS</div>
 <div class="badge-type">STUDENT ID CARD</div>
 </div>
@@ -4999,7 +4998,7 @@ ${qrHtml}
             <Av name={s.full_name} src={s.profile_image || null} size={58} glow />
             <div style={{ fontSize: 14, fontWeight: 800, marginTop: 14, color: dark ? '#E5E7EB' : '#1F2937' }}>{s.full_name}</div>
             <div style={{ fontSize: 11, color: '#6B7280', margin: '4px 0 10px' }}>{batches.find(b => b.id === s.batch_id)?.name || '—'}</div>
-            <div style={{ fontSize: 9, color: '#4B5563', fontFamily: "'Space Grotesk',sans-serif", marginBottom: 12 }}>AEM-{String(s.full_name || '').replace(/\s+/g, '').substring(0, 3).toUpperCase()}-{(s.id || '').substring(0, 6).toUpperCase()}</div>
+            <div style={{ fontSize: 9, color: '#4B5563', fontFamily: "'Space Grotesk',sans-serif", marginBottom: 12 }}>ASP-{String(s.full_name || '').replace(/\s+/g, '').substring(0, 3).toUpperCase()}-{(s.id || '').substring(0, 6).toUpperCase()}</div>
             <Bdg type={statusBadge(s.status)} size="sm" dot>{s.status}</Bdg>
             <div style={{ marginTop: 14 }}><Btn onClick={() => genCard(s)} size="sm" full icon="🪪">Generate</Btn></div>
           </div>
@@ -5265,7 +5264,7 @@ ${ranked.map((s,i) => `<tr><td style="font-weight:800;color:${i<3?'#d97706':'#66
 ${dueStudents.slice(0,25).map(s => `<tr><td style="font-weight:700">${s.full_name}</td><td>${data.batches.find(b=>b.id===s.batch_id)?.name||'—'}</td><td>PKR ${totalFeeOf(s).toLocaleString()}</td><td>PKR ${(s.fee_paid||0).toLocaleString()}</td><td style="color:#dc2626;font-weight:700">PKR ${dueOf(s).toLocaleString()}</td></tr>`).join('')}
 </table></div>
 </div>
-<div class="ft"><p style="font-size:12px;color:#666;font-weight:600;margin-bottom:6px">ASPIRE Institute — Design the Future</p><p>Computer generated monthly report • ${month} ${year}</p></div>
+<div class="ft"><p style="font-size:12px;color:#666;font-weight:600;margin-bottom:6px">ASPIRE Institute — Learn · Build · Earn</p><p>Computer generated monthly report • ${month} ${year}</p></div>
 </div>
 <script>window.onload=()=>{setTimeout(()=>window.print(),600)}<\/script>
 </body></html>`)
