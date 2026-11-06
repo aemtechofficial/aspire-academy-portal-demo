@@ -235,8 +235,13 @@ class QB {
 
 export function createDemoClient() {
   const db = JSON.parse(JSON.stringify(SEED))
+  // Realtime stub: the app subscribes to postgres_changes after login.
+  // Without channel/removeChannel the app crashes the moment a session exists.
+  const channelStub = () => { const ch = { on: () => ch, subscribe: () => ch, unsubscribe: () => {} }; return ch }
   return {
     from: table => new QB(db, table),
     storage: { from: () => ({ upload: async () => ({ error: null }), getPublicUrl: () => ({ data: { publicUrl: '' } }) }) },
+    channel: channelStub,
+    removeChannel: () => {},
   }
 }
